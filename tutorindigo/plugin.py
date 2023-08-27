@@ -44,8 +44,10 @@ hooks.Filters.ENV_TEMPLATE_TARGETS.add_items(
 
 # Force the rendering of scss files, even though they are included in a "partials" directory
 hooks.Filters.ENV_PATTERNS_INCLUDE.add_items(
-    r"xulu-indigo/lms/static/sass/partials/lms/theme/",
-    r"xulu-indigo/cms/static/sass/partials/cms/theme/"
+    [
+        r"xulu-indigo/lms/static/sass/partials/lms/theme/",
+        r"xulu-indigo/cms/static/sass/partials/cms/theme/"
+    ]
 )
 
 # Load all configuration entries
