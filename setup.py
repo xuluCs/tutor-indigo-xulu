@@ -25,12 +25,12 @@ ABOUT = load_about()
 
 
 setup(
-    name="tutor-indigo",
+    name="tutor-indigo-xulu",
     version=ABOUT["__version__"],
-    url="https://github.com/overhangio/tutor-indigo",
+    url="https://github.com/xuluCs/tutor-indigo-xulu",
     project_urls={
         "Documentation": "https://docs.tutor.overhang.io/",
-        "Code": "https://github.com/overhangio/tutor-indigo",
+        "Code": "https://github.com/xuluCs/tutor-indigo-xulu",
         "Issue tracker": "https://github.com/overhangio/tutor-indigo/issues",
         "Community": "https://discuss.openedx.org",
     },
