@@ -38,7 +38,7 @@ hooks.Filters.ENV_TEMPLATE_ROOTS.add_item(
 # This is where the theme is rendered in the openedx build directory
 hooks.Filters.ENV_TEMPLATE_TARGETS.add_items(
     [
-        ("indigo", "build/openedx/themes"),
+        ("xulu-indigo", "build/openedx/themes"),
     ],
 )
 
