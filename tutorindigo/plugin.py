@@ -15,8 +15,17 @@ config = {
         # Footer links are dictionaries with a "title" and "url"
         # To remove all links, run:
         # tutor config save --set INDIGO_FOOTER_NAV_LINKS=[] --set INDIGO_FOOTER_LEGAL_LINKS=[]
-        "FOOTER_NAV_LINKS": [],
-        "FOOTER_LEGAL_LINKS": [],
+        "FOOTER_NAV_LINKS": [
+            {"title": "About", "url": "/about"},
+            {"title": "Contact", "url": "/contact"},
+        ],
+        "FOOTER_LEGAL_LINKS": [
+            {"title": "Terms of service", "url": "/tos"},
+            {
+                "title": "Xulu Indigo theme for Xulu LMS",
+                "url": "https://xulu.co.id",
+            },
+        ],
     },
     "unique": {},
     "overrides": {},
